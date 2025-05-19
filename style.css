@@ -2,11 +2,11 @@
 
 /* Variáveis */
 :root {
-    --primary-color: #4CAF50; /* Verde para remeter à vegetação */
-    --secondary-color: #FFB74D; /* Amarelo para remeter ao campo */
+    --primary-color: #388E3C; /* Verde escuro, remete à vegetação e ao campo */
+    --secondary-color: #64B5F6; /* Azul claro, lembra o céu e águas limpas */
     --text-color: #F2E3D5; /* Cor clara para o texto */
-    --background-color: #8D6E63; /* Marrom claro para remeter à terra */
-    --button-hover: #388E3C; /* Verde escuro para hover nos botões */
+    --background-color: #81C784; /* Verde claro, associado ao crescimento e sustentabilidade */
+    --button-hover: #2E7D32; /* Verde mais escuro para hover nos botões */
     --font-body: "Chocolate Classical Sans", serif;
     --font-titulo: "Rakkas", serif;
 }
@@ -61,4 +61,36 @@ header p {
     margin-bottom: 20px;
 }
 
-/* Navigation*
+/* Navigation Styles */
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--text-color);
+    background-color: var(--primary-color);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: var(--button-hover);
+}
+
+/* Main Content Styles */
+main {
+    width: 80%;
+    margin: 20px auto;
